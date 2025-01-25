@@ -6,5 +6,5 @@ export default function Page(){
 
     //쿼리 스트링 값 불러오기
     const {q} = router.query; // const q =router.query.q;랑 같음.
-    return <h1>Search</h1>
+    return <h1>Search {q} </h1>
 }
